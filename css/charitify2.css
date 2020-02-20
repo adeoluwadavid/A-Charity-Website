@@ -1,0 +1,58 @@
+#map {
+    width: 100%;
+    height: 300px;
+    z-index: -2;
+  }
+.section1{
+      
+      
+      background-image: url("../img/Charity_about.jpg");
+      background-repeat: no-repeat;
+      max-height: 300px;
+      height: 400px;
+      background-size: cover;
+      background-position: center;
+      
+
+
+    
+  }
+.section1 > div{
+    margin-left: 150px;
+    padding-top: 100px;
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: lightgrey;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 60px;
+    border-radius: 10px;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+}
+/*Footer*/
+.section3{
+    background-color: black;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    justify-content: space-evenly;
+    color: white;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.charitify{
+  color: white;
+  font-size: 12px;
+  padding-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
